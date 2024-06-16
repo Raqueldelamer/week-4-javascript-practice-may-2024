@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,12 +8,14 @@
   <title>JavaScript Day 4</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
   <p>
     <a href="index.html">home</a>
   </p>
   <h1>More JavaScript Variables</h1>
-  <p>You can create your own variables by delcaring them and assigning to them. You can even re-assign them. Let get some more practice.</p>
+  <p>You can create your own variables by delcaring them and assigning to them. You can even re-assign them. Lets get
+    some more practice.</p>
   <h2>Examples</h2>
   <p>Let's remember how to delcare variables.</p>
   <script>
@@ -24,53 +27,125 @@
     a = 16;
     b = 32;
     c = 64;
-    
-  </script>
 
+  </script>
   <p>
-    a times b is 
+    a times b is
     <script>
-      document.write(a*b);
+      document.write(a * b);
     </script>
   </p>
   <p>
-    a times c is 
+    a times c is
     <script>
-      document.write(a*c);
+      document.write(a * c);
     </script>
   </p>
+  <p>
+    b + c is
+    <strong>
+      <script>
+        document.write(b + c);
+      </script>
+    </strong>
+  </p>
+
   <h3>You try it!</h3>
-  <p>TODO: Create variables called x, y and z. Then use them with mathematical operators.</p>
+  <h4>TODO: Create variables called x, strawberry and kiwi. Then use them with mathematical operators.</h4>
   <script>
-    
+
+    let x = 50;
+    let strawberry = 5;
+    let kiwi = 32;
+
   </script>
-  <p>
-    x plus y is
-    <script>
 
+
+  <p>
+    x + strawberry is
+    <script>
+      document.write(x + strawberry);
     </script>
   </p>
   <p>
-    x times y is
+    x - kiwi is
     <script>
-
-    </script>
-  </p>
-  <p>
-    y divided by z is
-    <script>
-
-    </script>
+      document.write(x - kiwi)
+        </script>
   </p>
 
   <h2>More practice</h2>
-  <p>Create 3 more variables and use them in script tags below. Choose the names of the variables yourself.</p>
+  <h4>Create 3 more variables and use them in script tags below. Choose the names of the variables yourself.</h4>
+
   <script>
-    
+    let avocado;
+    let banana;
+    let carrot;
+    let dragonfruit;
+
+    avocado = 5;
+    banana = 10;
+    carrot = 15;
+    dragonfruit = 20;
   </script>
-  <p></p>
-  <p></p>
-  <p></p>
-  
-</body>
-</html>
+  <p>
+    avocado times banana is
+    <script>
+      document.write(avocado * banana);
+    </script>
+  </p>
+  <p>
+    x plus avocado is
+    <script>
+      document.write(x + avocado);
+    </script>
+  </p>
+  <p>
+    dragonfruit subtract carrot is
+    <script>
+      document.write(dragonfruit - carrot);
+    </script>
+  </p>
+
+
+  <h2>More practice</h2>
+
+  <p>
+    dragonfruit is greater than carrot:
+    <script>
+      document.write(dragonfruit > carrot);
+    </script>
+  </p>
+  <p>
+    carrot is less than dragonfruit:
+    <script>
+      document.write(carrot < dragonfruit);
+    </script>
+  </p>
+  <p>
+    banana is less than avocado:
+    <script>
+      document.write(banana < avocado);
+    </script>
+  </p>
+
+
+  <script>
+    // for me, Raquel
+    let blueberries = 2.50;
+    let myWallet = 5.00;
+    if (blueberries < myWallet) {
+      document.write("Raquel gets blueberries! Woohoo!")
+    }
+  </script>
+
+  <p>
+    <script>
+      let count = 100;
+      let dividend = 3;
+      if (count % dividend) {
+        document.write("33.333333")
+      } else {
+        document.write("It does divide!")
+      }
+    </script>
